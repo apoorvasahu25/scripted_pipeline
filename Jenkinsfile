@@ -1,15 +1,15 @@
 node{
   stage('Build')
   {
-    sh'this is build step'
+    sh'''this is build step''''
   }
   stage('Test')
   {
-    sh'This is test step'
+    sh'this is test step'
   }
   stage('deploy')
   {
-    sh'This is deploy step'
+    sh'this is deploy step'
   }
 }
       
